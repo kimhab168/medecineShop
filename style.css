@@ -1,0 +1,264 @@
+body {
+    width: 100vw;
+    background-color: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#header-bar {
+    height: 190px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#top {
+    height: 47.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+#text-top, #btn-container {
+    padding: 0 30px;
+}
+
+#text-top {
+    width: 70%;
+    padding-left: 70px;
+}
+
+#btn-container {
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 70px;
+}
+
+#btn-container>a {
+    text-decoration: none;
+    color: black;
+}
+
+#logo-bar {
+    height: 95px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#logo {
+    width: 40px;
+    height: 40px;
+}
+
+#search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 25px;
+}
+
+.input-field {
+    height: 40px;
+    padding-left: 14px;
+    width: 300px;
+}
+
+.btn-all {
+    background-color: #008001;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+}
+
+#search>a {
+    color: black;
+    padding: 0 10px;
+}
+
+#search>a:hover {
+    color: rgb(243, 67, 67);
+}
+
+#menu-bar {
+    height: 47.5px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.menu-btn {
+    text-decoration: none;
+    color: black;
+    padding: 0 15px;
+}
+
+.menu-btn:hover {
+    color: red;
+}
+
+#ads-display {
+    height: 800px;
+    width: 100vw;
+    display: flex;
+    gap: 0 100px;
+    justify-content: center;
+    align-items: center;
+    background: url("./bg-medicine.jpg") center no-repeat;
+    opacity: 0.9;
+}
+
+#ads-display>.image>img {
+    width: 100%;
+    max-width: 700px;
+    min-width: 500px;
+    height: auto;
+}
+
+#sell-description {
+    width: 300px;
+    height: 330px;
+}
+
+.detail>#title-text {
+    margin-bottom: 30px;
+}
+.button {
+    background-color: #008001;
+    height: 40px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 0 15px;
+}
+#services-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 15px;
+}
+#services-container>.service{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#services-container>.service>i{
+    width: 100px;
+    margin-bottom: 10px;
+}
+#services-container>.service>h3{
+    margin: 5px 0;
+}
+
+#category>.on-title{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    padding: 20px 100px;
+}
+#category>.on-title>a{
+    text-decoration: none;
+    color:greenyellow;
+}
+
+.category-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.category-container>.category-box{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    margin: 0 10px 20px;
+    border: 1px solid yellowgreen;
+}
+.category-container>.category-box>img{
+    width: 100px;
+}
+/* product */
+#product>.on-title{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    padding: 20px 100px;
+}
+#product>.on-title>a{
+    text-decoration: none;
+    color:greenyellow;
+}
+
+.product-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-evenly;
+    padding:0 150px;
+}
+
+.product-container>.product-box{
+    
+    border: 1px solid greenyellow;
+    padding: 0 20px;
+}
+
+.product-container>.product-box>h2{
+    padding-bottom: 30px;
+}
+
+.product-container>.product-box>img{
+    width: 350px;
+}
+#event{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+}
+#event>.advertise{
+    border-radius: 20px;
+    width: 400px;
+    height: 700px;
+    background-color: #88cd88;
+    text-align: center;
+}
+
+#daily-blog{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#daily-blog>.blog-box{
+    width: 400px;
+    height: 600px;
+    background-color: aqua;
+    text-align: center;
+}
+
+#daily-blog>.on-title{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    padding: 20px 100px;
+}
+
