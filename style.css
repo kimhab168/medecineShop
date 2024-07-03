@@ -242,23 +242,40 @@ body {
 }
 
 #daily-blog{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-}
-#daily-blog>.blog-box{
-    width: 400px;
-    height: 600px;
-    background-color: aqua;
-    text-align: center;
+
 }
 
 #daily-blog>.on-title{
     display: flex;
-    justify-content: space-between;
     margin: 0 auto;
     align-items: center;
+    justify-content: space-between;
     padding: 20px 100px;
-}
 
+}
+#daily-blog>#blog-cont{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    padding-bottom: 30px;
+}
+#daily-blog>#blog-cont>.image{
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 25px;
+    background-color: antiquewhite;
+}
+#daily-blog>#blog-cont>.image>img{
+    width: 250px;
+    margin-bottom: 20px;
+}
+#daily-blog>#blog-cont>.image>h4{
+    padding: 0 20px;
+}
+#daily-blog>.on-title>div>i{
+
+}
